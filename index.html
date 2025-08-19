@@ -30,10 +30,13 @@
                         <a class="header-nav-link" href=""> Contacts</a>
                     </li>
                 </ul>
-                <svg class="icon-solid_menu" width="24" height="24">
-                    <use href="./images/icons.svg#icon-solid_menu"></use>
-                </svg>
             </nav>
+
+              <button class="solid-menu-btn" type="button">
+                    <svg class="solid-menu-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-solid_menu"></use>
+                    </svg>
+                </button>
 
             <address class="header-socials">
                 <ul class="header-contacts-list">
@@ -494,7 +497,9 @@
                                 <use href="./images/icons.svg#icon-checked"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
+                        <span>
+                            I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
+                        </span>
                     </label>
                 </div>
 
@@ -511,19 +516,21 @@
                 </svg>
             </button>
 
-            <ul class="menu-nav-list">
-                <li class="menu-nav-item"><a class="menu-nav-item-link menu-current-page" href="">Studio</a></li>
-                <li class="menu-nav-item"><a class="menu-nav-item-link" href="">Portfolio</a></li>
-                <li class="menu-nav-item"><a class="menu-nav-item-link" href="">Contacts</a></li>
-            </ul>
+            <nav class="mobile-menu-nav">
+                <ul class="menu-nav-list">
+                    <li class="menu-nav-item"><a class="menu-nav-item-link menu-current-page" href="">Studio</a></li>
+                    <li class="menu-nav-item"><a class="menu-nav-item-link" href="">Portfolio</a></li>
+                    <li class="menu-nav-item"><a class="menu-nav-item-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
 
             <address>
                 <ul class="menu-contacts-list"> 
                     <li>
-                        <a class="menu-contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="menu-contact-item is-select" href="tel:+110001111111"> +11 (000) 111-11-11</a>
                     </li>
                     <li>
-                    <a class="menu-contact-item" href="tel:+110001111111"> +11 (000) 111-11-11</a>
+                        <a class="menu-contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                 </ul>
             </address>
