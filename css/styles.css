@@ -64,6 +64,7 @@ section {
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header div {
@@ -143,7 +144,7 @@ section {
     padding: 16px 32px;
     border-radius: 4px;
     display: block;
-    margin: 48px auto 0;
+    margin: 72px auto 0;
     height: 56px;
     min-width: 169px;
     border: none;
@@ -572,6 +573,7 @@ section {
 
 .form-label {
     display: flex;
+    align-items: center;
     width: 100%;
     font-weight: 400;
     font-size: 12px;
@@ -813,15 +815,19 @@ section {
     color: #404BBF;
 }
 
+.mobile-contacts {
+    margin-bottom: 48px;
+}
+
 .menu-contacts-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .menu-contact-item {
     font-style: normal;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -867,9 +873,6 @@ section {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px; 
-    }
-    .header div {
-        gap: 121px;
     }
     .header-logo {
         margin-right: 120px;
@@ -948,6 +951,9 @@ section {
         line-height: 1.07143;
         max-width: 496px;
     }
+    .first-section-btn {
+        margin-top: 36px;
+    }
     .values-list { 
         flex-direction: row;
         flex-wrap: wrap;
@@ -1021,9 +1027,6 @@ section {
         padding-bottom: 120px;
         padding-top: 120px;
     }
-    .header div {
-        gap: 332px;
-    }
     .header-logo {
         margin-right: 76px;
     }
@@ -1036,6 +1039,11 @@ section {
         flex-direction: row;
         gap: 40px;
     }
+    .header-contacts {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
     .main-first-section {
         background-image: 
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
@@ -1043,6 +1051,9 @@ section {
         max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
+    }
+    .first-section-btn {
+        margin-top: 48px;
     }
     .values-list { 
         flex-wrap: nowrap;
@@ -1094,6 +1105,7 @@ section {
         flex-wrap: nowrap;
         align-items: baseline;
         gap: 0;
+        padding: 0 15px;
     }
     .footer-info {
         margin-right: 120px;
